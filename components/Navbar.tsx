@@ -4,22 +4,20 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image'
 import Link from 'next/link'
 
-// CSS for the overlay effect
 const overlayStyles = {
-  position: 'fixed',
-  top: '100px', // Adjust this value to start the menu under the navbar
+  position: 'fixed', // Set the position to 'fixed'
+  top: '100px',
   left: 0,
   width: '100%',
-  height: 'calc(100% - 100px)', // Subtract the navbar height
-  background: 'rgba(0, 0, 0, 0.5)', // Semi-transparent black background
-  backdropFilter: 'blur(5px)', // Add blur to the background
-  zIndex: 999, // Ensure it's above other elements
+  height: 'calc(100% - 100px)',
+  background: 'rgba(0, 0, 0, 0.5)',
+  backdropFilter: 'blur(5px)',
+  zIndex: 999,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
 };
 
-// Define animation variants
 const navVariants = {
   hidden: { opacity: 0 },
   show: { opacity: 1, transition: { duration: 1 } },
