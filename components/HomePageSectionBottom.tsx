@@ -33,14 +33,13 @@ const HomePageSectionBottom = () => {
           LabApp isn't just a product; it's a catalyst for transformation. Join us on this exciting journey as we work together to shape the future of web3. Your journey toward success starts right here.
         </p>
         <a href="https://t.me/RaoWay" target="_blank" rel="noopener noreferrer">
-        <button
-          className="inline-flex items-center justify-center text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300 text-slate-50 hover:bg-slate-900/90 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-50/90 flex-center mt-10 h-fit rounded-full bg-[#2190ff] px-6 py-4"
-          type="button"
-          aria-haspopup="dialog"
-          aria-expanded=""
-          aria-controls="radix-:rr:"
-          data-state="closed"
-        >
+          <button
+            className="inline-flex items-center justify-center text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300 text-slate-50 hover:bg-slate-900/90 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-50/90 flex-center mt-10 h-fit rounded-full bg-[#2190ff] px-6 py-4"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="radix-:rr:"
+            data-state="closed"
+          >
           <p className="text-[14px] font-semibold leading-[16px] text-white">SPEAK WITH US</p>
           <Image
             alt="arrow left"
