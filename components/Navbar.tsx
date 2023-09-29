@@ -140,36 +140,36 @@ const Navbar = () => {
         )}
       </div>
       {isMobile && mobileMenuOpen && (
-        <div style={overlayStyles} onClick={closeMobileMenu}>
-        <div className="flex flex-col items-center rounded-md bg-black-200 text-white p-4 shadow-lg sm:w-[90%] w-full">
-        <span className="body-text !font-normal pb-2">
-            <Link
-              href="./"
-            >
-              Home
-            </Link>
-          </span>   
-          <span className="body-text text-gradient_blue-purple !font-bold pb-2 pt-2">
-            <Link
-              href="/projects"
-            >
-              Projects
-            </Link>
-          </span>
-          <span className="body-text !font-normal pb-5 pt-2">
-            <Link
-              href="/contact"
-            >
-              Contact
-            </Link>
-          </span>
-          <button
+        <div style={overlayStyles as React.CSSProperties} onClick={closeMobileMenu}>
+          <div className="flex flex-col items-center rounded-md bg-black-200 text-white p-4 shadow-lg sm:w-[90%] w-full">
+            <span className="body-text !font-normal pb-2">
+              <Link
+                href="./"
+              >
+                Home
+              </Link>
+            </span>   
+            <span className="body-text text-gradient_blue-purple !font-bold pb-2 pt-2">
+              <Link
+                href="/projects"
+              >
+                Projects
+              </Link>
+            </span>
+            <span className="body-text !font-normal pb-5 pt-2">
+              <Link
+                href="/contact"
+              >
+                Contact
+              </Link>
+            </span>
+            <button
               className="gradient_blue-purple whitespace-nowrap rounded-lg px-8 py-2.5 capitalize text-white"
             >
               <a href="https://t.me/RaoWay" target="_blank" rel="noopener noreferrer">SPEAK WITH US</a>
-          </button>
+            </button>
+          </div>
         </div>
-      </div>
       )}
     </motion.nav>
   )
