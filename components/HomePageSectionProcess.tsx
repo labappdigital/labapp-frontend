@@ -59,7 +59,7 @@ const HomePageSectionProcess = () => {
           className="inline-flex items-center justify-center text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300 bg-slate-900 text-slate-50 hover:bg-slate-900/90 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-50/90 flex-center paragraph-semibold gradient_blue-purple z-10 mt-11 h-fit rounded-full px-[66px] py-[14px]"
           type="button"
           aria-haspopup="dialog"
-          aria-expanded=""
+          aria-expanded="false" // Set it to "false"
           aria-controls="radix-:ri:"
           data-state="closed"
         >
