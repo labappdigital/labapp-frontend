@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'LabApp',
-  description: 'LabApp Projects',
+  description: 'Elevate your crypto project with LabApp! Explore custom Web3 applications designed to amplify your success. Unleash the future of crypto today.',
   other: {
     'theme-color': '#0d1117',
     "color-scheme": "dark only",
